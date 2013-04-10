@@ -1,0 +1,12 @@
+C:\Users\RJ\Documents\Visual Studio 2012\Projects\Login\Login\bin\Debug\Login.exe.config
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\bin\Debug\Login.exe.config
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\bin\Debug\Login.exe
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\bin\Debug\Login.pdb
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\bin\Debug\Login.xml
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\Login.exe
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\Login.xml
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\Login.pdb
+C:\Users\Jake\Documents\GitHub\CS3240-Group6\Login\Login\obj\Debug\WindowsApplication1.Form2.resources
