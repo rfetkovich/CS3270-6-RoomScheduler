@@ -22,3 +22,7 @@ C:\Users\RJ\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Window
 C:\Users\RJ\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Form2.resources
 C:\Users\RJ\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\RJ\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+E:\Users\RJ\My Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\bin\Debug\Login.exe.config
+E:\Users\RJ\My Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Login.exe
+E:\Users\RJ\My Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Login.xml
+E:\Users\RJ\My Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Login.pdb
