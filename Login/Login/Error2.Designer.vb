@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Error1
+Partial Class Error2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,10 +28,10 @@ Partial Class Error1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(157, 116)
+        Me.Button1.Location = New System.Drawing.Point(166, 115)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(94, 33)
-        Me.Button1.TabIndex = 0
+        Me.Button1.TabIndex = 1
         Me.Button1.Text = "Ok"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -39,21 +39,21 @@ Partial Class Error1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 42)
+        Me.Label1.Location = New System.Drawing.Point(62, 47)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(412, 29)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Please Select The Organization First!"
+        Me.Label1.Size = New System.Drawing.Size(308, 29)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Please Select A Class First!"
         '
-        'Error1
+        'Error2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(430, 190)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Error1"
-        Me.Text = "Please Select The Organization First!"
+        Me.Name = "Error2"
+        Me.Text = "Please Select A Class First!"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

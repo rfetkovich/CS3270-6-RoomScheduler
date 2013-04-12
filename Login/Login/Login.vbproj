@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Error2.Designer.vb">
+      <DependentUpon>Error2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Error2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ForgotPassword.Designer.vb">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </Compile>
@@ -86,6 +92,30 @@
       <DependentUpon>Error1.vb</DependentUpon>
     </Compile>
     <Compile Include="Error1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp1.Designer.vb">
+      <DependentUpon>PopUp1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp2.Designer.vb">
+      <DependentUpon>PopUp2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp3.Designer.vb">
+      <DependentUpon>PopUp3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp4.Designer.vb">
+      <DependentUpon>PopUp4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp4.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2.Designer.vb">
@@ -169,11 +199,26 @@
     <EmbeddedResource Include="Error1.resx">
       <DependentUpon>Error1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Error2.resx">
+      <DependentUpon>Error2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp1.resx">
+      <DependentUpon>PopUp1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp2.resx">
+      <DependentUpon>PopUp2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp3.resx">
+      <DependentUpon>PopUp3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp4.resx">
+      <DependentUpon>PopUp4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
