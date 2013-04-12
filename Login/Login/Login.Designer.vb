@@ -22,32 +22,32 @@ Partial Class Login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnLogin = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
         Me.tbUserName = New System.Windows.Forms.TextBox()
         Me.tbPassWord = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblForgotPW = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnLogin
         '
-        Me.Button1.Location = New System.Drawing.Point(112, 204)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 33)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnLogin.Location = New System.Drawing.Point(112, 204)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(94, 33)
+        Me.btnLogin.TabIndex = 0
+        Me.btnLogin.Text = "Login"
+        Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnCancel
         '
-        Me.Button2.Location = New System.Drawing.Point(307, 204)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(94, 33)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnCancel.Location = New System.Drawing.Point(307, 204)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(94, 33)
+        Me.btnCancel.TabIndex = 1
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
         '
         'tbUserName
         '
@@ -63,14 +63,14 @@ Partial Class Login
         Me.tbPassWord.Size = New System.Drawing.Size(395, 20)
         Me.tbPassWord.TabIndex = 3
         '
-        'Label1
+        'lblForgotPW
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(205, 143)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Forgot Your Password?"
+        Me.lblForgotPW.AutoSize = True
+        Me.lblForgotPW.Location = New System.Drawing.Point(205, 143)
+        Me.lblForgotPW.Name = "lblForgotPW"
+        Me.lblForgotPW.Size = New System.Drawing.Size(117, 13)
+        Me.lblForgotPW.TabIndex = 4
+        Me.lblForgotPW.Text = "Forgot Your Password?"
         '
         'Label2
         '
@@ -97,22 +97,22 @@ Partial Class Login
         Me.ClientSize = New System.Drawing.Size(554, 307)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblForgotPW)
         Me.Controls.Add(Me.tbPassWord)
         Me.Controls.Add(Me.tbUserName)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnLogin)
         Me.Name = "Login"
         Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnLogin As System.Windows.Forms.Button
+    Friend WithEvents btnCancel As System.Windows.Forms.Button
     Friend WithEvents tbUserName As System.Windows.Forms.TextBox
     Friend WithEvents tbPassWord As System.Windows.Forms.TextBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblForgotPW As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
 

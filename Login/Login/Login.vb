@@ -3,11 +3,11 @@
     Dim userName As String = Nothing
     Dim passWord As String = Nothing
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         End
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         If userName <> "abc" Then
             MessageBox.Show("User is Invalid")
         End If
@@ -20,7 +20,7 @@
         End If
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblForgotPW.Click
         ForgotPassword.Show()
     End Sub
 
