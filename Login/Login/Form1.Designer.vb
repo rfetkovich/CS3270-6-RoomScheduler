@@ -22,40 +22,160 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.btnDailySchedule = New System.Windows.Forms.Button()
+        Me.btnClasses = New System.Windows.Forms.Button()
+        Me.btnMaintence = New System.Windows.Forms.Button()
+        Me.btnOrganization = New System.Windows.Forms.Button()
+        Me.btnProfile = New System.Windows.Forms.Button()
+        Me.btnEvents = New System.Windows.Forms.Button()
+        Me.btnAlarms = New System.Windows.Forms.Button()
+        Me.btnVirtualTour = New System.Windows.Forms.Button()
+        Me.btnHelp = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btnHome = New System.Windows.Forms.Button()
+        Me.btnLogout = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'ListView1
+        'btnDailySchedule
         '
-        Me.ListView1.Location = New System.Drawing.Point(264, 8)
-        Me.ListView1.Margin = New System.Windows.Forms.Padding(2)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1158, 136)
-        Me.ListView1.TabIndex = 4
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        Me.ListView1.View = System.Windows.Forms.View.Details
+        Me.btnDailySchedule.Location = New System.Drawing.Point(37, 123)
+        Me.btnDailySchedule.Name = "btnDailySchedule"
+        Me.btnDailySchedule.Size = New System.Drawing.Size(139, 23)
+        Me.btnDailySchedule.TabIndex = 0
+        Me.btnDailySchedule.Text = "Daily Schedule"
+        Me.btnDailySchedule.UseVisualStyleBackColor = True
         '
-        'TreeView1
+        'btnClasses
         '
-        Me.TreeView1.Location = New System.Drawing.Point(4, -2)
-        Me.TreeView1.Margin = New System.Windows.Forms.Padding(2)
-        Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(240, 696)
-        Me.TreeView1.TabIndex = 3
+        Me.btnClasses.Location = New System.Drawing.Point(37, 152)
+        Me.btnClasses.Name = "btnClasses"
+        Me.btnClasses.Size = New System.Drawing.Size(139, 23)
+        Me.btnClasses.TabIndex = 1
+        Me.btnClasses.Text = "Classes"
+        Me.btnClasses.UseVisualStyleBackColor = True
+        '
+        'btnMaintence
+        '
+        Me.btnMaintence.Location = New System.Drawing.Point(37, 181)
+        Me.btnMaintence.Name = "btnMaintence"
+        Me.btnMaintence.Size = New System.Drawing.Size(139, 23)
+        Me.btnMaintence.TabIndex = 2
+        Me.btnMaintence.Text = "Maintence"
+        Me.btnMaintence.UseVisualStyleBackColor = True
+        '
+        'btnOrganization
+        '
+        Me.btnOrganization.Location = New System.Drawing.Point(37, 210)
+        Me.btnOrganization.Name = "btnOrganization"
+        Me.btnOrganization.Size = New System.Drawing.Size(139, 23)
+        Me.btnOrganization.TabIndex = 3
+        Me.btnOrganization.Text = "Organization"
+        Me.btnOrganization.UseVisualStyleBackColor = True
+        '
+        'btnProfile
+        '
+        Me.btnProfile.Location = New System.Drawing.Point(37, 239)
+        Me.btnProfile.Name = "btnProfile"
+        Me.btnProfile.Size = New System.Drawing.Size(139, 23)
+        Me.btnProfile.TabIndex = 4
+        Me.btnProfile.Text = "Profile"
+        Me.btnProfile.UseVisualStyleBackColor = True
+        '
+        'btnEvents
+        '
+        Me.btnEvents.Location = New System.Drawing.Point(37, 268)
+        Me.btnEvents.Name = "btnEvents"
+        Me.btnEvents.Size = New System.Drawing.Size(139, 23)
+        Me.btnEvents.TabIndex = 5
+        Me.btnEvents.Text = "Events"
+        Me.btnEvents.UseVisualStyleBackColor = True
+        '
+        'btnAlarms
+        '
+        Me.btnAlarms.Location = New System.Drawing.Point(37, 297)
+        Me.btnAlarms.Name = "btnAlarms"
+        Me.btnAlarms.Size = New System.Drawing.Size(139, 23)
+        Me.btnAlarms.TabIndex = 6
+        Me.btnAlarms.Text = "Alarms"
+        Me.btnAlarms.UseVisualStyleBackColor = True
+        '
+        'btnVirtualTour
+        '
+        Me.btnVirtualTour.Location = New System.Drawing.Point(37, 326)
+        Me.btnVirtualTour.Name = "btnVirtualTour"
+        Me.btnVirtualTour.Size = New System.Drawing.Size(139, 23)
+        Me.btnVirtualTour.TabIndex = 7
+        Me.btnVirtualTour.Text = "Vitual Tour"
+        Me.btnVirtualTour.UseVisualStyleBackColor = True
+        '
+        'btnHelp
+        '
+        Me.btnHelp.Location = New System.Drawing.Point(37, 355)
+        Me.btnHelp.Name = "btnHelp"
+        Me.btnHelp.Size = New System.Drawing.Size(139, 23)
+        Me.btnHelp.TabIndex = 8
+        Me.btnHelp.Text = "Help"
+        Me.btnHelp.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(37, 456)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(139, 23)
+        Me.Button10.TabIndex = 9
+        Me.Button10.Text = "Button10"
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'btnHome
+        '
+        Me.btnHome.Location = New System.Drawing.Point(37, 485)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(139, 23)
+        Me.btnHome.TabIndex = 10
+        Me.btnHome.Text = "Home"
+        Me.btnHome.UseVisualStyleBackColor = True
+        '
+        'btnLogout
+        '
+        Me.btnLogout.Location = New System.Drawing.Point(37, 514)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Size = New System.Drawing.Size(139, 23)
+        Me.btnLogout.TabIndex = 11
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1426, 693)
-        Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.TreeView1)
+        Me.ClientSize = New System.Drawing.Size(834, 561)
+        Me.Controls.Add(Me.btnLogout)
+        Me.Controls.Add(Me.btnHome)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.btnHelp)
+        Me.Controls.Add(Me.btnVirtualTour)
+        Me.Controls.Add(Me.btnAlarms)
+        Me.Controls.Add(Me.btnEvents)
+        Me.Controls.Add(Me.btnProfile)
+        Me.Controls.Add(Me.btnOrganization)
+        Me.Controls.Add(Me.btnMaintence)
+        Me.Controls.Add(Me.btnClasses)
+        Me.Controls.Add(Me.btnDailySchedule)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Form 1"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents ListView1 As System.Windows.Forms.ListView
-    Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
+    Friend WithEvents btnDailySchedule As System.Windows.Forms.Button
+    Friend WithEvents btnClasses As System.Windows.Forms.Button
+    Friend WithEvents btnMaintence As System.Windows.Forms.Button
+    Friend WithEvents btnOrganization As System.Windows.Forms.Button
+    Friend WithEvents btnProfile As System.Windows.Forms.Button
+    Friend WithEvents btnEvents As System.Windows.Forms.Button
+    Friend WithEvents btnAlarms As System.Windows.Forms.Button
+    Friend WithEvents btnVirtualTour As System.Windows.Forms.Button
+    Friend WithEvents btnHelp As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents btnHome As System.Windows.Forms.Button
+    Friend WithEvents btnLogout As System.Windows.Forms.Button
 End Class
