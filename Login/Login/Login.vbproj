@@ -82,6 +82,12 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Error1.Designer.vb">
+      <DependentUpon>Error1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Error1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
@@ -160,6 +166,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Error1.resx">
+      <DependentUpon>Error1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </EmbeddedResource>
