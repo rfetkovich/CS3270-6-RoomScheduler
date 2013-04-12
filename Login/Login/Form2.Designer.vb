@@ -22,38 +22,40 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.SuspendLayout()
-        '
-        'TreeView1
-        '
-        Me.TreeView1.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(318, 856)
-        Me.TreeView1.TabIndex = 1
         '
         'ListView1
         '
-        Me.ListView1.Location = New System.Drawing.Point(347, 12)
+        Me.ListView1.Location = New System.Drawing.Point(264, 8)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(2)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1543, 166)
-        Me.ListView1.TabIndex = 2
+        Me.ListView1.Size = New System.Drawing.Size(1158, 136)
+        Me.ListView1.TabIndex = 4
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
+        'TreeView1
+        '
+        Me.TreeView1.Location = New System.Drawing.Point(4, -2)
+        Me.TreeView1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TreeView1.Name = "TreeView1"
+        Me.TreeView1.Size = New System.Drawing.Size(240, 696)
+        Me.TreeView1.TabIndex = 3
+        '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1902, 853)
+        Me.ClientSize = New System.Drawing.Size(1426, 693)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.TreeView1)
         Me.Name = "Form2"
-        Me.Text = "Home"
+        Me.Text = "Form2"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
 End Class
