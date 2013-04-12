@@ -24,8 +24,8 @@ Partial Class Login
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.UserName = New System.Windows.Forms.TextBox()
-        Me.PassWord = New System.Windows.Forms.TextBox()
+        Me.tbUserName = New System.Windows.Forms.TextBox()
+        Me.tbPassWord = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -49,19 +49,19 @@ Partial Class Login
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'UserName
+        'tbUserName
         '
-        Me.UserName.Location = New System.Drawing.Point(112, 40)
-        Me.UserName.Name = "UserName"
-        Me.UserName.Size = New System.Drawing.Size(395, 20)
-        Me.UserName.TabIndex = 2
+        Me.tbUserName.Location = New System.Drawing.Point(112, 40)
+        Me.tbUserName.Name = "tbUserName"
+        Me.tbUserName.Size = New System.Drawing.Size(395, 20)
+        Me.tbUserName.TabIndex = 2
         '
-        'PassWord
+        'tbPassWord
         '
-        Me.PassWord.Location = New System.Drawing.Point(112, 86)
-        Me.PassWord.Name = "PassWord"
-        Me.PassWord.Size = New System.Drawing.Size(395, 20)
-        Me.PassWord.TabIndex = 3
+        Me.tbPassWord.Location = New System.Drawing.Point(112, 86)
+        Me.tbPassWord.Name = "tbPassWord"
+        Me.tbPassWord.Size = New System.Drawing.Size(395, 20)
+        Me.tbPassWord.TabIndex = 3
         '
         'Label1
         '
@@ -98,8 +98,8 @@ Partial Class Login
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PassWord)
-        Me.Controls.Add(Me.UserName)
+        Me.Controls.Add(Me.tbPassWord)
+        Me.Controls.Add(Me.tbUserName)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Login"
@@ -110,8 +110,8 @@ Partial Class Login
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents UserName As System.Windows.Forms.TextBox
-    Friend WithEvents PassWord As System.Windows.Forms.TextBox
+    Friend WithEvents tbUserName As System.Windows.Forms.TextBox
+    Friend WithEvents tbPassWord As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
