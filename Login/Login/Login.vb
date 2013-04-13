@@ -15,7 +15,7 @@
             MessageBox.Show("Password is Invalid")
         End If
         If userName = "abc" And passWord = "123" Then
-            Form1.Show()
+            index.Show()
             Me.Hide()
         End If
     End Sub

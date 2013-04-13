@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class index
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -144,7 +144,7 @@ Partial Class Form1
         Me.btnLogout.Text = "Logout"
         Me.btnLogout.UseVisualStyleBackColor = True
         '
-        'Form1
+        'index
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -161,8 +161,8 @@ Partial Class Form1
         Me.Controls.Add(Me.btnMaintence)
         Me.Controls.Add(Me.btnClasses)
         Me.Controls.Add(Me.btnDailySchedule)
-        Me.Name = "Form1"
-        Me.Text = "Form 1"
+        Me.Name = "index"
+        Me.Text = "Room Scheduler"
         Me.ResumeLayout(False)
 
     End Sub
