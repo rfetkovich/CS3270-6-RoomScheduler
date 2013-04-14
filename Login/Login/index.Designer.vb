@@ -38,117 +38,129 @@ Partial Class index
         '
         'btnDailySchedule
         '
-        Me.btnDailySchedule.Location = New System.Drawing.Point(37, 123)
+        Me.btnDailySchedule.Location = New System.Drawing.Point(49, 151)
+        Me.btnDailySchedule.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnDailySchedule.Name = "btnDailySchedule"
-        Me.btnDailySchedule.Size = New System.Drawing.Size(139, 23)
+        Me.btnDailySchedule.Size = New System.Drawing.Size(185, 28)
         Me.btnDailySchedule.TabIndex = 0
         Me.btnDailySchedule.Text = "Daily Schedule"
         Me.btnDailySchedule.UseVisualStyleBackColor = True
         '
         'btnClasses
         '
-        Me.btnClasses.Location = New System.Drawing.Point(37, 152)
+        Me.btnClasses.Location = New System.Drawing.Point(49, 187)
+        Me.btnClasses.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClasses.Name = "btnClasses"
-        Me.btnClasses.Size = New System.Drawing.Size(139, 23)
+        Me.btnClasses.Size = New System.Drawing.Size(185, 28)
         Me.btnClasses.TabIndex = 1
         Me.btnClasses.Text = "Classes"
         Me.btnClasses.UseVisualStyleBackColor = True
         '
         'btnMaintence
         '
-        Me.btnMaintence.Location = New System.Drawing.Point(37, 181)
+        Me.btnMaintence.Location = New System.Drawing.Point(49, 223)
+        Me.btnMaintence.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnMaintence.Name = "btnMaintence"
-        Me.btnMaintence.Size = New System.Drawing.Size(139, 23)
+        Me.btnMaintence.Size = New System.Drawing.Size(185, 28)
         Me.btnMaintence.TabIndex = 2
         Me.btnMaintence.Text = "Maintence"
         Me.btnMaintence.UseVisualStyleBackColor = True
         '
         'btnOrganization
         '
-        Me.btnOrganization.Location = New System.Drawing.Point(37, 210)
+        Me.btnOrganization.Location = New System.Drawing.Point(49, 258)
+        Me.btnOrganization.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnOrganization.Name = "btnOrganization"
-        Me.btnOrganization.Size = New System.Drawing.Size(139, 23)
+        Me.btnOrganization.Size = New System.Drawing.Size(185, 28)
         Me.btnOrganization.TabIndex = 3
         Me.btnOrganization.Text = "Organization"
         Me.btnOrganization.UseVisualStyleBackColor = True
         '
         'btnProfile
         '
-        Me.btnProfile.Location = New System.Drawing.Point(37, 239)
+        Me.btnProfile.Location = New System.Drawing.Point(49, 294)
+        Me.btnProfile.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnProfile.Name = "btnProfile"
-        Me.btnProfile.Size = New System.Drawing.Size(139, 23)
+        Me.btnProfile.Size = New System.Drawing.Size(185, 28)
         Me.btnProfile.TabIndex = 4
         Me.btnProfile.Text = "Profile"
         Me.btnProfile.UseVisualStyleBackColor = True
         '
         'btnEvents
         '
-        Me.btnEvents.Location = New System.Drawing.Point(37, 268)
+        Me.btnEvents.Location = New System.Drawing.Point(49, 330)
+        Me.btnEvents.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnEvents.Name = "btnEvents"
-        Me.btnEvents.Size = New System.Drawing.Size(139, 23)
+        Me.btnEvents.Size = New System.Drawing.Size(185, 28)
         Me.btnEvents.TabIndex = 5
         Me.btnEvents.Text = "Events"
         Me.btnEvents.UseVisualStyleBackColor = True
         '
         'btnAlarms
         '
-        Me.btnAlarms.Location = New System.Drawing.Point(37, 297)
+        Me.btnAlarms.Location = New System.Drawing.Point(49, 366)
+        Me.btnAlarms.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnAlarms.Name = "btnAlarms"
-        Me.btnAlarms.Size = New System.Drawing.Size(139, 23)
+        Me.btnAlarms.Size = New System.Drawing.Size(185, 28)
         Me.btnAlarms.TabIndex = 6
         Me.btnAlarms.Text = "Alarms"
         Me.btnAlarms.UseVisualStyleBackColor = True
         '
         'btnVirtualTour
         '
-        Me.btnVirtualTour.Location = New System.Drawing.Point(37, 326)
+        Me.btnVirtualTour.Location = New System.Drawing.Point(49, 401)
+        Me.btnVirtualTour.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnVirtualTour.Name = "btnVirtualTour"
-        Me.btnVirtualTour.Size = New System.Drawing.Size(139, 23)
+        Me.btnVirtualTour.Size = New System.Drawing.Size(185, 28)
         Me.btnVirtualTour.TabIndex = 7
         Me.btnVirtualTour.Text = "Vitual Tour"
         Me.btnVirtualTour.UseVisualStyleBackColor = True
         '
         'btnHelp
         '
-        Me.btnHelp.Location = New System.Drawing.Point(37, 355)
+        Me.btnHelp.Location = New System.Drawing.Point(49, 437)
+        Me.btnHelp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHelp.Name = "btnHelp"
-        Me.btnHelp.Size = New System.Drawing.Size(139, 23)
+        Me.btnHelp.Size = New System.Drawing.Size(185, 28)
         Me.btnHelp.TabIndex = 8
         Me.btnHelp.Text = "Help"
         Me.btnHelp.UseVisualStyleBackColor = True
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(37, 456)
+        Me.Button10.Location = New System.Drawing.Point(49, 561)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(139, 23)
+        Me.Button10.Size = New System.Drawing.Size(185, 28)
         Me.Button10.TabIndex = 9
         Me.Button10.Text = "Button10"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'btnHome
         '
-        Me.btnHome.Location = New System.Drawing.Point(37, 485)
+        Me.btnHome.Location = New System.Drawing.Point(49, 597)
+        Me.btnHome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHome.Name = "btnHome"
-        Me.btnHome.Size = New System.Drawing.Size(139, 23)
+        Me.btnHome.Size = New System.Drawing.Size(185, 28)
         Me.btnHome.TabIndex = 10
         Me.btnHome.Text = "Home"
         Me.btnHome.UseVisualStyleBackColor = True
         '
         'btnLogout
         '
-        Me.btnLogout.Location = New System.Drawing.Point(37, 514)
+        Me.btnLogout.Location = New System.Drawing.Point(49, 633)
+        Me.btnLogout.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Size = New System.Drawing.Size(139, 23)
+        Me.btnLogout.Size = New System.Drawing.Size(185, 28)
         Me.btnLogout.TabIndex = 11
         Me.btnLogout.Text = "Logout"
         Me.btnLogout.UseVisualStyleBackColor = True
         '
         'index
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(834, 561)
+        Me.ClientSize = New System.Drawing.Size(1112, 690)
         Me.Controls.Add(Me.btnLogout)
         Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.Button10)
@@ -161,6 +173,7 @@ Partial Class index
         Me.Controls.Add(Me.btnMaintence)
         Me.Controls.Add(Me.btnClasses)
         Me.Controls.Add(Me.btnDailySchedule)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "index"
         Me.Text = "Room Scheduler"
         Me.ResumeLayout(False)
