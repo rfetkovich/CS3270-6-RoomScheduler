@@ -100,6 +100,6 @@ C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Wind
 C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Form8.resources
 C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Form9.resources
 C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Login.resources
-C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Home.resources
 C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\Login.vbproj.GenerateResource.Cache
+C:\Users\Jake\Documents\GitHub\CS3270-6-RoomScheduler\Login\Login\obj\Debug\WindowsApplication1.StudentHome.resources
