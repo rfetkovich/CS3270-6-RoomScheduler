@@ -50,6 +50,11 @@ Partial Class StudentHome
         Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Home ")
         Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.SuspendLayout()
         '
         'TreeView1
@@ -116,12 +121,38 @@ Partial Class StudentHome
         '
         'ListView1
         '
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
         Me.ListView1.Location = New System.Drawing.Point(347, 12)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(1543, 166)
         Me.ListView1.TabIndex = 2
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Class"
+        Me.ColumnHeader1.Width = 180
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Class Number"
+        Me.ColumnHeader2.Width = 180
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Teacher"
+        Me.ColumnHeader3.Width = 180
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Time"
+        Me.ColumnHeader4.Width = 180
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Location"
+        Me.ColumnHeader5.Width = 180
         '
         'StudentHome
         '
@@ -137,4 +168,9 @@ Partial Class StudentHome
     End Sub
     Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Private WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader5 As System.Windows.Forms.ColumnHeader
 End Class
