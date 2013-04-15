@@ -31,10 +31,12 @@ Partial Class index
         Me.btnAlarms = New System.Windows.Forms.Button()
         Me.btnVirtualTour = New System.Windows.Forms.Button()
         Me.btnHelp = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.btnLogout = New System.Windows.Forms.Button()
         Me.lblWelcomeUser = New System.Windows.Forms.Label()
-        Me.SuspendLayout()
+        Me.lblRoomScheduler = New System.Windows.Forms.Label()
+        Me.SuspendLayout
         '
         'btnDailySchedule
         '
@@ -43,7 +45,7 @@ Partial Class index
         Me.btnDailySchedule.Size = New System.Drawing.Size(139, 23)
         Me.btnDailySchedule.TabIndex = 0
         Me.btnDailySchedule.Text = "Daily Schedule"
-        Me.btnDailySchedule.UseVisualStyleBackColor = True
+        Me.btnDailySchedule.UseVisualStyleBackColor = true
         '
         'btnClasses
         '
@@ -52,7 +54,7 @@ Partial Class index
         Me.btnClasses.Size = New System.Drawing.Size(139, 23)
         Me.btnClasses.TabIndex = 1
         Me.btnClasses.Text = "Classes"
-        Me.btnClasses.UseVisualStyleBackColor = True
+        Me.btnClasses.UseVisualStyleBackColor = true
         '
         'btnMaintence
         '
@@ -61,7 +63,7 @@ Partial Class index
         Me.btnMaintence.Size = New System.Drawing.Size(139, 23)
         Me.btnMaintence.TabIndex = 2
         Me.btnMaintence.Text = "Maintence"
-        Me.btnMaintence.UseVisualStyleBackColor = True
+        Me.btnMaintence.UseVisualStyleBackColor = true
         '
         'btnOrganization
         '
@@ -70,7 +72,7 @@ Partial Class index
         Me.btnOrganization.Size = New System.Drawing.Size(139, 23)
         Me.btnOrganization.TabIndex = 3
         Me.btnOrganization.Text = "Organization"
-        Me.btnOrganization.UseVisualStyleBackColor = True
+        Me.btnOrganization.UseVisualStyleBackColor = true
         '
         'btnProfile
         '
@@ -79,7 +81,7 @@ Partial Class index
         Me.btnProfile.Size = New System.Drawing.Size(139, 23)
         Me.btnProfile.TabIndex = 4
         Me.btnProfile.Text = "Profile"
-        Me.btnProfile.UseVisualStyleBackColor = True
+        Me.btnProfile.UseVisualStyleBackColor = true
         '
         'btnEvents
         '
@@ -88,7 +90,7 @@ Partial Class index
         Me.btnEvents.Size = New System.Drawing.Size(139, 23)
         Me.btnEvents.TabIndex = 5
         Me.btnEvents.Text = "Events"
-        Me.btnEvents.UseVisualStyleBackColor = True
+        Me.btnEvents.UseVisualStyleBackColor = true
         '
         'btnAlarms
         '
@@ -97,7 +99,7 @@ Partial Class index
         Me.btnAlarms.Size = New System.Drawing.Size(139, 23)
         Me.btnAlarms.TabIndex = 6
         Me.btnAlarms.Text = "Alarms"
-        Me.btnAlarms.UseVisualStyleBackColor = True
+        Me.btnAlarms.UseVisualStyleBackColor = true
         '
         'btnVirtualTour
         '
@@ -106,7 +108,7 @@ Partial Class index
         Me.btnVirtualTour.Size = New System.Drawing.Size(139, 23)
         Me.btnVirtualTour.TabIndex = 7
         Me.btnVirtualTour.Text = "Vitual Tour"
-        Me.btnVirtualTour.UseVisualStyleBackColor = True
+        Me.btnVirtualTour.UseVisualStyleBackColor = true
         '
         'btnHelp
         '
@@ -115,7 +117,16 @@ Partial Class index
         Me.btnHelp.Size = New System.Drawing.Size(139, 23)
         Me.btnHelp.TabIndex = 8
         Me.btnHelp.Text = "Help"
-        Me.btnHelp.UseVisualStyleBackColor = True
+        Me.btnHelp.UseVisualStyleBackColor = true
+        '
+        'Button10
+        '
+        Me.Button10.Location = New System.Drawing.Point(37, 456)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(139, 23)
+        Me.Button10.TabIndex = 9
+        Me.Button10.Text = "Button10"
+        Me.Button10.UseVisualStyleBackColor = true
         '
         'btnHome
         '
@@ -124,7 +135,7 @@ Partial Class index
         Me.btnHome.Size = New System.Drawing.Size(139, 23)
         Me.btnHome.TabIndex = 10
         Me.btnHome.Text = "Home"
-        Me.btnHome.UseVisualStyleBackColor = True
+        Me.btnHome.UseVisualStyleBackColor = true
         '
         'btnLogout
         '
@@ -133,25 +144,37 @@ Partial Class index
         Me.btnLogout.Size = New System.Drawing.Size(139, 23)
         Me.btnLogout.TabIndex = 11
         Me.btnLogout.Text = "Logout"
-        Me.btnLogout.UseVisualStyleBackColor = True
+        Me.btnLogout.UseVisualStyleBackColor = true
         '
         'lblWelcomeUser
         '
-        Me.lblWelcomeUser.AutoSize = True
-        Me.lblWelcomeUser.Location = New System.Drawing.Point(37, 88)
+        Me.lblWelcomeUser.AutoSize = true
+        Me.lblWelcomeUser.Location = New System.Drawing.Point(37, 78)
         Me.lblWelcomeUser.Name = "lblWelcomeUser"
-        Me.lblWelcomeUser.Size = New System.Drawing.Size(77, 13)
+        Me.lblWelcomeUser.Size = New System.Drawing.Size(74, 13)
         Me.lblWelcomeUser.TabIndex = 12
-        Me.lblWelcomeUser.Text = "Welcome User"
+        Me.lblWelcomeUser.Text = "WelcomeUser"
+        '
+        'lblRoomScheduler
+        '
+        Me.lblRoomScheduler.AutoSize = true
+        Me.lblRoomScheduler.Font = New System.Drawing.Font("Candara", 18!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.lblRoomScheduler.Location = New System.Drawing.Point(29, 18)
+        Me.lblRoomScheduler.Name = "lblRoomScheduler"
+        Me.lblRoomScheduler.Size = New System.Drawing.Size(174, 29)
+        Me.lblRoomScheduler.TabIndex = 13
+        Me.lblRoomScheduler.Text = "Room Scheduler"
         '
         'index
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(834, 561)
+        Me.Controls.Add(Me.lblRoomScheduler)
         Me.Controls.Add(Me.lblWelcomeUser)
         Me.Controls.Add(Me.btnLogout)
         Me.Controls.Add(Me.btnHome)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.btnVirtualTour)
         Me.Controls.Add(Me.btnAlarms)
@@ -162,12 +185,11 @@ Partial Class index
         Me.Controls.Add(Me.btnClasses)
         Me.Controls.Add(Me.btnDailySchedule)
         Me.Name = "index"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Room Scheduler"
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
     Friend WithEvents btnDailySchedule As System.Windows.Forms.Button
     Friend WithEvents btnClasses As System.Windows.Forms.Button
     Friend WithEvents btnMaintence As System.Windows.Forms.Button
@@ -177,7 +199,9 @@ Partial Class index
     Friend WithEvents btnAlarms As System.Windows.Forms.Button
     Friend WithEvents btnVirtualTour As System.Windows.Forms.Button
     Friend WithEvents btnHelp As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents btnHome As System.Windows.Forms.Button
     Friend WithEvents btnLogout As System.Windows.Forms.Button
     Friend WithEvents lblWelcomeUser As System.Windows.Forms.Label
+    Friend WithEvents lblRoomScheduler As System.Windows.Forms.Label
 End Class
